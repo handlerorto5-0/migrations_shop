@@ -10,16 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_10_164525) do
-
-  create_table "products", force: :cascade do |t|
-    t.string "name"
-    t.decimal "price", precision: 7, scale: 2
-    t.integer "weight"
-    t.boolean "in_stock"
-    t.date "expiration_date"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end
